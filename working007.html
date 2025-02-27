@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Project Partnership Association</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .department {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            background-blend-mode: overlay; /* Blend mode to overlay the background color */
+            color: #333; /* Text color */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .blog-post {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+            .department {
+                padding: 10px;
+            }
+            .container {
+                padding: 10px;
+            }
+            header {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Universal Project Partnership Association</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#research">Research Innovation & Development</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#project">Project Department</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#ict">ICT Department</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#executive">Executive Department</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container my-4" id="home">
+        <h2 class="text-center">Welcome to Universal Project Partnership Association</h2>
+        <p>Welcome to Universal Project Partnership Association (UPPA)—a new initiative aimed at bringing together highly skilled, like-minded individuals passionate about innovation in business, technology, job creation, and investment. UPPA is an inclusive, tribeless association that embraces professionals from various fields, working collaboratively to drive youth employment, empowerment, entrepreneurship, and innovation-led development. Our focus is on project execution, seeking funding from organizations and government institutions to turn ideas into impactful solutions. We operate at the county, national, and university levels, partnering with young innovators to foster groundbreaking initiatives. We look forward to engaging with individuals and organizations that share our vision. If you're interested in collaborating or learning more, we’d love to connect.</p>
+    </div>
+    <div class="department" id="research" style="background-image: url('https://cdn.sapphire.microsoftapp.net/webapps/wallpapers/static/bing/20200824_pr_1080x1920.jpg');">
+        <h3>Research Innovation & Development</h3>
+        <p>Showcases ongoing and completed research projects, including details, findings, and downloadable PDFs.</p>
+        <div class="article">
+            <h4>Article Title 1</h4>
+            <p>Article content goes here...</p>
+        </div>
+        <div class="article">
+            <h4>Article Title 2</h4>
+            <p>Article content goes here...</p>
+        </div>
+    </div>
+    <div class="department" id="project" style="background-image: url('project-background.jpg');">
+        <h3>Project Department</h3>
+        <p>Highlights innovative ideas and projects, including images, descriptions, and progress updates. Headed by the project manager.</p>
+        <div class="article">
+            <h4>Project Title 1</h4>
+            <p>Project details go here...</p>
+        </div>
+        <div class="article">
+            <h4>Project Title 2</h4>
+            <p>Project details go here...</p>
+        </div>
+    </div>
+    <div class="department" id="ict" style="background-image: url('ict-background.jpg');">
+        <h3>ICT Department</h3>
+        <p>Available for admins only, where they can manage and customize the website. Headed by the ICT director.</p>
+    </div>
+    <div class="department" id="executive" style="background-image: url('executive-background.jpg');">
+        <h3>Executive Department</h3>
+        <p>Introduces team members with their roles and brief bios, including admins, stakeholders, and investors.</p>
+        <div class="article">
+            <h4>Sir. Mwatata</h4>
+            <p>Bio content goes here...</p>
+        </div>
+        <div class="article">
+            <h4>Member Name 2</h4>
+            <p>Bio content goes here...</p>
+        </div>
+    </div>
+    <div class="department" id="finance" style="background-image: url('finance-background.jpg');">
+        <h3>Finance Department</h3>
+        <p>Available for admins only.</p>
+    </div>
+    <div class="container my-4" id="contact">
+        <h3>Contact Us</h3>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" name="name" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <textarea name="message" class="form-control" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark">Send</button>
+        </form>
+    </div>
+    <div class="container my-4" id="blog">
+        <h3>Blog</h3>
+        <div class="blog-post">
+            <h4>Post Title 1</h4>
+            <p>Post content goes here...</p>
+        </div>
+        <div class="blog-post">
+            <h4>Post Title 2</h4>
+            <p>Post content goes here...</p>
+        </div>
+    </div>
+    <footer class="bg-dark text-white py-3">
+        <p>Contact us at: info@universalprojectassociation.com</p>
+    </footer>
+
+    <!-- Include Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
